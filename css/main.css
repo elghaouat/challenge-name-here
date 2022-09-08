@@ -17,12 +17,17 @@ Primary
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
     background-color: hsl(210, 46%, 95%);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container {
